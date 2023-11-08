@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+	--foreground-rgb: 0, 0, 0;
+	--background-rgb: 214, 219, 220;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-rgb: 0, 0, 0;
+	}
+} */
+
+@layer base {
+	h1 {
+		@apply font-bold text-xl mb-3;
+	}
+}
